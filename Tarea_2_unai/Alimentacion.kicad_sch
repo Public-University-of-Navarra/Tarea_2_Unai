@@ -934,10 +934,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "99c1b8e9-d36d-4c8c-a463-6d97e5ee290f")
+			(uuid "948b35ac-1125-40f9-853e-06f940ed36f5")
 		)
 		(pin "2"
-			(uuid "fac6c337-dfd3-4c91-826d-1adb3d61a7c4")
+			(uuid "1b5c60aa-b093-4227-9b1c-da47199cf820")
 		)
 		(instances
 			(project "Tarea_2_unai"
@@ -1014,10 +1014,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ec501f32-75cc-4cf6-a37d-f57f27d65d4d")
+			(uuid "2ac01cbf-8ca4-451a-b4e7-1752efb6e06b")
 		)
 		(pin "1"
-			(uuid "4a5b29f9-39a7-43ff-b424-af4c4b992877")
+			(uuid "05f36902-c253-4821-9380-9b15d00e47e7")
 		)
 		(instances
 			(project "Tarea_2_unai"
@@ -1182,10 +1182,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3cfdd731-adbf-42a9-bdbf-c90f8d46cf8a")
+			(uuid "d8fafebd-4236-4413-a955-cae8dce6cec4")
 		)
 		(pin "2"
-			(uuid "34506a5e-eaf9-4c76-a89c-e9190590986d")
+			(uuid "ed92d2cd-6df8-4bb4-84e2-d2da8e3350ff")
 		)
 		(instances
 			(project "Tarea_2_unai"
@@ -1262,13 +1262,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "1b279a59-646c-4424-a6db-a557e1539ef3")
+			(uuid "f346a1d2-e1d6-4fe4-a63a-89ded99ffc99")
 		)
 		(pin "1"
-			(uuid "71521666-3285-45ac-ae48-129319c4ed16")
+			(uuid "a2b847d1-35a4-4a55-9e99-323ece243064")
 		)
 		(pin "2"
-			(uuid "fd7e5309-6b27-4ae9-a642-8b1d96c114cd")
+			(uuid "bae1f2ba-7c08-4f18-8750-84f95470d8fe")
 		)
 		(instances
 			(project "Tarea_2_unai"

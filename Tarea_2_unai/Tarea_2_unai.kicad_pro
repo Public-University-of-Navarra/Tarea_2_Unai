@@ -529,7 +529,7 @@
         "clearance": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "tuning_profile": "",
@@ -537,10 +537,21 @@
         "via_drill": 0.4
       },
       {
+        "clearance": 0.2,
+        "name": "IMP_50",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.172375,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
         "clearance": 0.3,
         "name": "POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": "",
@@ -551,7 +562,7 @@
         "clearance": 0.3,
         "name": "SIGNAL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": "",
@@ -564,7 +575,28 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "IMP_50",
+        "pattern": "*SPI*"
+      },
+      {
+        "netclass": "IMP_50",
+        "pattern": "*I2C*"
+      },
+      {
+        "netclass": "IMP_50",
+        "pattern": "*1Wire*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND_REF"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "VOUT_3V3"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -761,7 +793,7 @@
         "uuid": "2324ac65-aae7-4e51-a8e4-9d93764ceb90"
       }
     ],
-    "used_designators": "U1-2,J1-2,R1-4,IC1-2,C1-6",
+    "used_designators": "U1-2,AC1,J1-3,R1-4,IC1-2,C1-6",
     "variants": []
   },
   "sheets": [
@@ -776,6 +808,10 @@
     [
       "5cbed766-6105-4833-8b7f-4c3640c40f4a",
       "Microcontrolador"
+    ],
+    [
+      "4edd11df-e078-43ce-9d36-f310678eb079",
+      "Sensores"
     ]
   ],
   "text_variables": {},
